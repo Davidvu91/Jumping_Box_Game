@@ -7,8 +7,9 @@ let myMusic;
 // let myBackground;
 
 function startGame() {
-    myGamePiece = new component(30, 30, "yellow", 10, 120);
-    // myBackground = new component(300, 300, "images/bg.jpg", 0, 0);
+    // myGamePiece = new component(30, 30, "images/bird1.png", 10, 120, "image");
+    myGamePiece = new component(30, 30, "darkblue", 10, 120);
+    // myBackground = new component(300, 300, "images/bg.jpg", 0, 0 "image");
     mySound = new sound("music/crush.mp3");
     myMusic = new sound("music/Background.mp3");
     myMusic.play();
